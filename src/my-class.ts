@@ -1,10 +1,11 @@
 export class MyClass {
     /**
-     * Says hello to a person.
-     * @param name The name of the person to say hello to.
-     * @returns The phrase saying hello to the person.
+     * Adds 2 numbers together.
+     * @param a The first number.
+     * @param b The second number.
+     * @returns The result of adding the 2 numbers.
      */
-    public sayHello(name: string): string {
-        return `Hello ${name}!`;
+    public add(a: number, b: number): number {
+        return a + b;
     }
 }

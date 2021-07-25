@@ -23,6 +23,7 @@
         "test": "ts-mocha tests/**/*.test.ts"
     },
     "devDependencies": {
+        "@types/mocha": "^9.0.0",
         "@types/node": "^16.4.2",
         "chai": "^4.3.4",
         "mocha": "^8.4.0",

@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { MyClass } from '../src/my-class';
+import { MyClass } from '../../src/my-class';
 
 describe('add unit tests', (): void => {
     it('adding two positive numbers', (): void => {

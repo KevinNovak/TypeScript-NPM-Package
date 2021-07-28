@@ -21,7 +21,7 @@
         "build": "tsc --project tsconfig.json",
         "prepare": "rm -rf dist && npm run build",
         "test": "npm run test:unit",
-        "test:unit": "ts-mocha tests/**/*.test.ts"
+        "test:unit": "ts-mocha tests/unit/**/*.test.ts"
     },
     "devDependencies": {
         "@types/chai": "^4.2.21",

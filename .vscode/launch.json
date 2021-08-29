@@ -11,6 +11,7 @@
             "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-mocha",
             "args": ["tests/unit/**/*.test.ts"],
             "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"],
+            "outputCapture": "std",
             "internalConsoleOptions": "openOnSessionStart",
             "skipFiles": ["<node_internals>/**"],
             "restart": false
